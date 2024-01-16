@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="./public/css/shoppingcart.css"><!-- Đường dẫn đến file CSS của bạn -->
+<link rel="stylesheet" href="./public/css/headfoot.css">
+
+</head>
+<body>
+    <header class="headerpro">
+        <div class="header-top">
+            <div class="conterner">
+                <div class="logo">
+                    <a href="#">
+                        <img src="https://jaroti-be87.kxcdn.com/jaroti/wp-content/themes/jaroti/images/logo.png"
+                            alt="Jaroti" title="Jaroti" class="normal-logo">
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="home.html" class="menu__link">Trang chủ</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Tìm kiếm</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="login.html" class="menu__link">Đăng nhập</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Sản phẩm</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Giỏ hàng</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<div class="container">
+  <div class="cart">
+    <h1>Shopping Cart</h1>
+    <div class="cart-items">
+      <div class="item">
+        <img src="https://jaroti-be87.kxcdn.com/jaroti/wp-content/uploads/2022/03/34-404x404.jpg" alt="Stacking Rings 5 Pack">
+        <div class="details">
+          <p class="item-name">Pale Pink Quilted Chain Cross Bag</p>
+          <p class="item-price">$38.24</p>
+          <div class="quantity-control">
+            <button class="minus">-</button>
+            <input type="number" value="1">
+            <button class="plus">+</button>
+            <button class="remove-item">X</button>
+          </div>
+          <p class="subtotal">$38.24</p>
+        </div>
+      </div>
+    </div>
+    <div class="cart-actions">
+        <input type="text" class="cart-input" placeholder="Coupon code">
+        <button class="cart-button apply-coupon">APPLY COUPON</button>
+        <button class="cart-button empty-cart">EMPTY CART</button>
+        <button class="cart-button update-cart">UPDATE CART</button>
+      </div>
+  </div>
+  <div class="cart-summary">
+    <h2>Cart totals</h2>
+    <div class="summary-item"><p>Subtotal</p><p>$38.24</p></div>
+    <div class="shipping-options">
+      <input type="radio" id="flat-rate" name="shipping" checked>
+      <label for="flat-rate">Flat rate: $10.00</label><br>
+      <input type="radio" id="local-pickup" name="shipping">
+      <label for="local-pickup">Local pickup: $5.00</label>
+      <button class="calculate-shipping">CALCULATE SHIPPING</button>
+      </div>
+      <div class="total"><p>Total</p><p>$48.24</p></div>
+      <a href="./checkout.html"><button class="proceed-checkout">PROCEED TO CHECKOUT</button></a>
+    </div>
+</div>
+<footer class="footervip">
+    <div class="conterner">
+        <div style="width: 18rem;">
+            <ul>
+                <li class="li2">
+                    <h5>DELIVERY & RETURN</h5>
+                </li>
+                <li class="li3">Check Order</li>
+                <li class="li3">Delivery & Collection</li>
+                <li class="li3">Careers</li>
+                <li class="li3">Delivery Return</li>
+            </ul>
+        </div>
+        <div style="width: 18rem;">
+            <ul>
+                <li class="li2">
+                    <h5>ABOUT</h5>
+                </li>
+                <li class="li3">Our Brand</li>
+                <li class="li3">Charity</li>
+                <li class="li3">CSR</li>
+                <li class="li3">Careers</li>
+            </ul>
+        </div>
+        <div style="width: 20rem;">
+            <ul>
+                <li class="li2">
+                    <H5>CUSTOMER SERVICES</H5>
+                </li>
+                <li class="li3">Contact Us</li>
+                <li class="li3">Opening Hours</li>
+                <li class="li3">Size Guides</li>
+                <li class="li3">Gift Cards</li>
+            </ul>
+        </div>
+
+        <div style="width: 40rem;">
+            <ul>
+                <li class="li2">
+                    <H4>NEWSLETTER SIGN UP</H4>
+                </li>
+                <li class="li3">Enjoy 15% off* your first order when you sign up to our newsletter</li>
+                <li class="li3">
+                    <form action="#" method="post" id="subscribeForm">
+                        <input type="email" name="email" class="subscribe-input" placeholder="Your e-mail address"
+                            required>
+                        <button type="submit" class="subscribe-button">Subscribe</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+      ```
